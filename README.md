@@ -1,31 +1,41 @@
-# Machine Learning Projects
+# Customer Segmentation using Machine Learning
 
-A collection of my Machine Learning, Deep Learning, NLP, and Computer Vision projects built using Python.
+## Overview
 
-## Projects
+This project uses K-Means clustering to segment customers based on their purchasing behaviour.
 
-### 1. Handwritten Spelling Error Detection
-- NLP-based system to detect spelling mistakes.
-- Calculates spelling errors per 100 words.
-- Technologies: Python, NLP, Text Processing
+## Dataset
 
-### 2. Real-Time Situp Counter
-- Computer Vision project using webcam input.
-- Detects human pose and counts repetitions.
-- Technologies: Python, OpenCV, MediaPipe
+Mall Customers dataset containing:
 
-### 3. Gradient Descent Experiments
-- Implementation and analysis of SGD Regression.
-- Compared Gradient Descent performance with Linear Regression.
-- Technologies: Python, Scikit-learn, Pandas
+- Age
+- Gender
+- Annual Income
+- Spending Score
 
-## Skills
+## Machine Learning Approach
+
+1. Exploratory Data Analysis
+2. Feature Selection
+3. Elbow Method for selecting clusters
+4. K-Means Clustering
+5. Customer Segment Analysis
+
+## Technologies Used
 
 - Python
-- Machine Learning
-- Computer Vision
-- Natural Language Processing
-- Scikit-learn
-- OpenCV
 - Pandas
 - NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Results
+
+Customers were divided into different segments:
+
+- Premium Customers
+- Budget Customers
+- Careful Rich Customers
+- Young Impulsive Customers
+- Average Customers
